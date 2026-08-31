@@ -83,16 +83,3 @@ $$\text{Cosine Similarity} = \frac{A \cdot B}{\Vert A \Vert_2 \Vert B \Vert_2}$$
 * **Matplotlib:** Plotting grayscale histograms and image grids.
 * **Scikit-Image (`skimage.metrics`):** Structural Similarity Index (SSIM) computation.
 
----
-
-## 📂 Repository Structure
-
-```plaintext
-├── data/
-│   ├── video.mp4               # Input video file
-│   └── output/                 # Extracted keyframe images (.png)
-├── FinalCode.ipynb             # Full end-to-end extraction pipeline
-├── intensity(grey).ipynb       # Grayscale histogram analysis notebook
-├── SSIM.ipynb                  # Pairwise SSIM evaluation notebook
-├── README.md                   # Project documentation
-└── requirements.txt            # Python dependencies
