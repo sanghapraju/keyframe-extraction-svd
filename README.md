@@ -83,3 +83,15 @@ $$\text{Cosine Similarity} = \frac{A \cdot B}{\Vert A \Vert_2 \Vert B \Vert_2}$$
 * **Matplotlib:** Plotting grayscale histograms and image grids.
 * **Scikit-Image (`skimage.metrics`):** Structural Similarity Index (SSIM) computation.
 
+## ⚙️ Quickstart
+
+### 1. Clone & Setup Environment
+
+```bash
+git clone [https://github.com/](https://github.com/)<your-username>/keyframe-extraction-svd.git
+cd keyframe-extraction-svd
+pip install -r requirements.txt
+```
+### 2. Run Extraction Pipeline
+
+Open and execute `FinalCode.ipynb` to process `video.mp4` and export candidate keyframes into the `output/` directory.
